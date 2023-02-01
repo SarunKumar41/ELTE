@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Bulb Game</title>
+</head>
+<style>
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+table, tr, td
+{
+  border : 2px solid rgb(104, 21, 249);
+  border-collapse: collapse;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(184, 228, 228);
+}
+
+td
+{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.errorCells
+{
+  background-color: red;
+}
+
+.withNum
+{
+  font-size: larger;
+}
+
+.blockedCells
+{
+  background-color: black;
+  color: white;
+}
+
+.coloured
+{
+  background-color: goldenrod;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.okColoured
+{
+  color: lightgreen;
+}
+
+.forButtons
+{
+  width: 6em;
+  height: 3em;
+  margin-top: 3em;
+  margin-left: 3em; 
+  margin-right: 3em; 
+  border: 2px rgb(249, 248, 251);
+  border-collapse : inherit  ;
+  display: inline-block;
+  background-color: rgb(108, 57, 201);
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.forLevelButton
+{
+  background-color: rgb(219, 226, 82);
+  color: rgb(49, 43, 202);
+  display: none;
+}
+
+h1
+{
+    font-weight: bold;
+    /* text-decoration: underline; */
+    font: italic;
+    font-size: 400%;
+    text-align: center;
+    color: yellow;
+}
+
+p
+{
+  text-align: center;
+  font:italic;
+  color: blue;
+}
+
+span#clock
+{
+  background-color: lightblue;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: 2px solid black;
+  display: none;
+  width: 200px;
+}
+
+div#playerName
+{
+  text-align: center;
+  font: italic;
+  font-size: 200%;
+  color: gold;
+}
+
+input
+{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  margin-left: 45%;
+}
+
+#seconds {
+  font-size: 2em;}
+
+#minutes {
+  font-size: 2em;
+}
+#colon {
+  font-size: 2em;
+}
+
+label
+{
+  color: rgb(188, 7, 188);
+}
+
+li#scoreBoard
+{
+  background-color: rgb(159, 124, 234);
+  width: auto;
+  text-align: center;
+  border: 4px solid blue;
+  height: auto;
+  margin-top: 10%;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: none;
+}
+
+
+</style>
+<body>
+  <h1> Bulb Game </h1>
+
+  <p> Once upon a time, King Unnamed of Nowhereland was both smiling and crying at the same time.
+      He was smiling because his enormous brand-new palace with many spacious rooms and corridors has just been finished.
+      He is also crying as these rooms need to be illuminated and kept warm, but the ongoing increase of utility costs affect him as well.
+      So now it's time to think about the placement of the palace's light bulbs. We need to place them so that everything is properly lit, but we cannot install any unnecessary bulbs.
+  </p>
+
+  <div id="playerName"> </div>
+  <span id="clock">
+    Timer : 
+    <label id="minutes">00</label>
+    <label id="colon">:</label>
+    <label id="seconds">00</label>
+  </span>
+  <table>
+  </table>
+  <li id="scoreBoard"> 👑  ScoreBoard  👑
+    <ol id="name">  </ol>
+    <ol id="mapLevel">  </ol>
+    <ol id="timeTaken">  </ol>
+  </li>
+  <button id="reset" class= "forButtons"> Reset</button>
+  <button id="save" class="forButtons"> Save </button>
+  <button id="resume" class="forButtons"> Resume </button>
+  <button id="newGame" class="forButtons"> New Game</button>
+  <button id="easy" class= "forButtons forLevelButton"> Easy</button>
+  <button id="advanced" class= "forButtons forLevelButton"> Advanced</button>
+  <button id="extreme" class= "forButtons forLevelButton"> Extreme</button>
+
+</body>
+</html>
+<script src="script.js"></script>
+
+

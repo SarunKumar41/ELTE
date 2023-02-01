@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1654692722 source:c:\users\iwcyyd\desktop\retake\endtermretake\main.cpp
+	<iostream>
+	"library/seqinfileenumerator.hpp"
+	"library/summation.hpp"
+	"library/stringstreamenumerator.hpp"
+	"library/linsearch.hpp"
+	"library/enumerator.hpp"
+	"library/procedure.hpp"
+
+1594564888 c:\users\iwcyyd\desktop\retake\endtermretake\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1502810830 c:\users\iwcyyd\desktop\retake\endtermretake\library\enumerator.hpp
+
+1594542766 c:\users\iwcyyd\desktop\retake\endtermretake\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1586934366 c:\users\iwcyyd\desktop\retake\endtermretake\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1554933622 c:\users\iwcyyd\desktop\retake\endtermretake\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1590765984 c:\users\iwcyyd\desktop\retake\endtermretake\library\linsearch.hpp
+	"procedure.hpp"
+

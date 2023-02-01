@@ -1,0 +1,12 @@
+{
+    "uname_complex": "The username can only contain English letters and numbers!",
+    "uname_exists": "This username already exists!",
+    "uname_short": "The username should be atleast 5 characters long!",
+    "pword_nomatch": "The passwords don't match",
+    "pword_short": "The password should be atleast 8 characters long!",
+    "pword_complex": "The password should contain atleast one lowercase letter, one uppercase letter, one number and a special character (#, @)!",
+    "uname_unknown": "The username does not exist",
+    "login_error": "The username-password combination doesn't exist!",
+    "choose_option": "Please choose an appropriate option",
+    "user_not_logged": "The user is not logged in"
+}

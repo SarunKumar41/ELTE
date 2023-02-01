@@ -1,0 +1,26 @@
+{
+    "1": {
+        "username": "AnotherUser",
+        "password": "$2y$10$wHsH2z8OL.EhX7yP4xEkf.DBGzFGaySynhUXcZWP50gct.h1FJsr6",
+        "email": "AnotherUser@gmail.com",
+        "id": 1,
+        "isAdmin": "False",
+        "voted_for_poll": []
+    },
+    "2": {
+        "username": "Virus",
+        "password": "$2y$10$XcpSPIwgC14MnAFnaj8VYOHkHpwkeuZ5VJXlBtcWDof.eL5ZADg36",
+        "email": "virus@gmail.com",
+        "id": 2,
+        "isAdmin": "False",
+        "voted_for_poll": []
+    },
+    "3": {
+        "username": "Admin",
+        "password": "$2y$10$u9\/7YXiXxBuiR8GaukXIc.Z0PkLdBNARq7HV7qNiLAPKz5s9kW5jO",
+        "email": "admin@gmail.com",
+        "id": 3,
+        "isAdmin": "True",
+        "voted_for_poll": []
+    }
+}

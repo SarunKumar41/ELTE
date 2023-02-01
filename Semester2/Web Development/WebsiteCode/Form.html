@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="alternate stylesheet" type="text/css" href="css/large.css" title="large">
+	<script  src="scripts/styleswitcher.js"></script>
+    <title> Clash of clans fanpage - Homepage</title>
+</head>
+<body>
+    <header>
+        <nav id="forvisualimpairment"><a id="largetext" href="#" onclick="setActiveStyleSheet('large'); return false;"><span class="icon"></span>Large text</a>
+            <a id="normaltext" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="icon"></span>Normal text</a>
+        </nav>
+        <h1>Clash Of Clans &lt;Fan Page&gt;</h1>
+        <nav id="mainmenu">
+            <ul>
+                <li>    <a href="index.html" title="Go to home"> Home </a> </li>
+                <li>    <a href="Buildings.html" title="See the buildings"> Buildings </a> </li>
+                <li>    <a href="Troops.html" title="See the troops"> Troops and Spells </a> </li>
+                <li>    <a href="BuilderBase.html" title="See builder's base"> Builder Base </a> </li>
+                <li>    <a href="Form.html" title="Fill the form"><b>Form</b>  </a> </li>
+
+            </ul>
+        </nav> 
+    </header>
+    <main>
+
+            <h1>Who is your favorite hero?</h1>
+            
+            <div class="form_container">
+                <form action="mailto:samar35413541@gmail.com" method="post" enctype="text/plain" id="login" onreset="return submitForm(this);" >
+                    <fieldset>
+                        <legend>Your gaming experience</legend>
+                        <h2>Have you ever tried clash of clans? If yes, please fill the following form!</h2>
+                        <label for="Hero"><strong>Favorite Hero</strong></label><br>
+                        <input type="text" size="60" name="Hero" id="Hero" placeholder=" e.g Barbarian King"><br><br>
+                        <label for="experience"><strong>Briefly share your experience playing Clash of Clans</strong></label><br>
+                        <textarea cols="60" rows="10" name="experience" id="experience" placeholder="With a few sentences, please"></textarea>
+                    </fieldset>
+                    <fieldset >
+                        <legend>Rate our website</legend>
+                        <p>
+                           <strong>How do you rate our website?</strong>
+                            <input type="radio" name="rating" value="1" id="r1"> <label for="r1"> 1 - Very Poor</label>
+                            <input type="radio" name="rating" value="2" id="r2"> <label for="r2"> 2 - Poor </label>
+                            <input type="radio" name="rating" value="3" id="r3"> <label for="r3"> 3 - Satisfactory</label>
+                            <input type="radio" name="rating" value="4" id="r4"> <label for="r4"> 4 - Good</label>
+                            <input type="radio" name="rating" value="5" id="r5"> <label for="r5"> 5 - Excellent</label><br><br>
+                            <label for="story"><strong>How can we improve our user experience?</strong></label><br>
+                            <textarea cols="60" rows="10" name="story" id="story" placeholder="With a few sentences, please"></textarea>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Personal info</legend>
+                        <label for="name"><strong>Name</strong></label><br>
+                        <input type="text" size="60" name="name" id="name" placeholder="Your first name, e.g John"><br><br>
+                        <label for="email"><strong>E-mail address</strong></label><br>
+                        <input type="text" size="60" name="email" id="email" placeholder="JohnDoe.com"><br>
+                        <br>
+                        <!-- <div id="gender"> -->
+                        <p><strong>Gender</strong><br>
+                        <input type="radio" name="gender" value="male" id="male"> <label for="male"> Male </label>
+                        <input type="radio" name="gender" value="female" id="female"> <label for="female"> Female </label>
+                        <input type="radio" name="gender" value="custom" id="custom"> <label for="custom"> Prefer not to tell </label>
+                        <!-- </div> -->
+                    </fieldset>
+                    <fieldset>
+                        <legend>Notify Me</legend>
+                            <input type="checkbox" name="newsletter" id="newsletter" value="yes">
+                            <label for="newsletter">I'd like to be notified about new content</label> <br><br>
+                        <div class="submit" >
+                            <input type="reset" value="Reset" >
+                            <input type="submit" value="Submit">
+                            
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer_bg">
+                All rights reserved.
+            </div>
+        </footer>
+</body>
+</html>

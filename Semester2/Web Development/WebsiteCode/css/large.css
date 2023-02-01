@@ -1,0 +1,34 @@
+/* large text for people with visual impairement */
+
+@import url('base.css');
+body {
+	font-size:2em;
+	
+}
+
+a#largetext {display: none;}
+a#normaltext {display: block;}
+
+header, main, footer {
+	width:90%;
+	max-width:1200px;
+	}
+	
+nav#forvisualimpairment { width:400px;}	
+
+#forvisualimpairment span {
+	background-image:url("../media/icons.png");
+	background-position:-330px 0px;
+}
+
+
+
+
+.print_page{
+	background-color: rgb(98, 166, 230);
+	border: 5px solid rgb(30, 79, 3);
+	border-radius: 5px;
+	padding: 5px;
+	height: 150px;
+	font-style: italic;
+	}

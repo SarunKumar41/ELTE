@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1652959490 source:c:\users\iwcyyd\desktop\examend\examendterm\main.cpp
+	<iostream>
+	"library/seqinfileenumerator.hpp"
+	"library/stringstreamenumerator.hpp"
+	"library/linsearch.hpp"
+
+1652955252 source:c:\users\iwcyyd\desktop\examend\examendterm\untitled1.c
+
+1594564888 c:\users\iwcyyd\desktop\examend\examendterm\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1502810830 c:\users\iwcyyd\desktop\examend\examendterm\library\enumerator.hpp
+
+1554933622 c:\users\iwcyyd\desktop\examend\examendterm\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1590765984 c:\users\iwcyyd\desktop\examend\examendterm\library\linsearch.hpp
+	"procedure.hpp"
+
+1586934366 c:\users\iwcyyd\desktop\examend\examendterm\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+

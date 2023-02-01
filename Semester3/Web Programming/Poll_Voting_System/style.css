@@ -1,0 +1,19 @@
+/* #desc {
+    background-color: blue;
+} */
+
+body
+{
+    background-color: rgb(185, 208, 225);
+}
+#ongoing
+{
+    color: #2E8B57;
+    background-color: rgb(112, 196, 224);
+}
+#ended
+{
+    color: #ff6347 ;
+    background-color: #dbdb6a;
+}
+

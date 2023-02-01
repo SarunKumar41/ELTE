@@ -1,0 +1,32 @@
+30
+Jumpy1 p 1
+Jumpy2 p 2
+Jumpy3 p 3
+Jumpy4 p 4
+Jumpy5 p 5
+Jumpy6 p 6
+Jumpy7 p 7
+Jumpy8 p 8
+Jumpy9 p 9
+Jumpy10 p 10
+Dumpy1 d 6
+Dumpy2 d 7
+Dumpy3 d 8
+Dumpy4 d 9
+Dumpy5 d 10
+Dumpy6 d 11
+Dumpy7 d 12
+Dumpy8 d 13
+Dumpy9 d 14
+Dumpy10 d 15
+Bumpy1 b 11
+Bumpy2 b 12
+Bumpy3 b 13
+Bumpy4 b 14
+Bumpy5 b 15
+Bumpy6 b 16
+Bumpy7 b 17
+Bumpy8 b 18
+Bumpy9 b 19
+Bumpy10 b 20
+100
