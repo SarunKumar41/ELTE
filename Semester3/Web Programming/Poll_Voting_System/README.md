@@ -1,7 +1,7 @@
 
 # Poll Voting System (PHP assignment - home project)
 
-**This is a general poll voting system implemented using PHP. [Click here to check it out]http://webprogramming.inf.elte.hu/students/iwcyyd/Poll_Voting_System/ **
+**This is a general poll voting system implemented using PHP. [Click here to check it out](http://webprogramming.inf.elte.hu/students/iwcyyd/Poll_Voting_System/)**
 
 ## Task description
 
